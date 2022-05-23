@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kiki",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendinblue-v3-transport": "^1.0.1",
+    "nodemailerv6-sendinbluev3-transport": "^1.0.2",
+    "sib-api-v3-sdk": "^8.3.0"
+  }
+}

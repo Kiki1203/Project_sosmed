@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+  font-family: 'Patrick Hand', cursive;
+}
+
+a {
+  color: black !important;
+}
+
+.brand-logo {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.brand-auth {
+  font-family: 'Pacifico', cursive !important;
+  font-size: 50px;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.mycard {
+  margin-top: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  height: 220px;
+  width: 290px;
+  margin-bottom: 20px;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.home-card-1 {
+  max-width: 800px;
+  max-height: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.card-image {
+  margin: 0px 10px;
+}
+
+.Error404 {
+  font-size: 200px;
+  text-align: center;
+  background-color: #107df9;
+}
+
+.MassageError {
+  text-align: center;
+  font-size: 50px;
+}
+.BackHome {
+  font-size: 30px;
+  text-align: center;
+  color: #ef0c0c;
+}
+
+.buttonSubmit:disabled,
+.buttonSubmit[disabled] {
+  background-color: #8deccf;
+  color: var(--dark-grey);
+  cursor: not-allowed;
+}
+
+.large {
+  font-size: 900px;
+}
+
+.iconprofile {
+  font-size: 30px !important;
+}
+
+.iconbtn {
+  color: #ee6e73 !important;
+}
+img:hover {
+  box-shadow: 0 0 5px 1px #26a69a;
+}
+img {
+  cursor: pointer;
+  display: block !important;
+}
+
+.galler1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-item {
+  position: relative;
+  flex: 1 0 22rem;
+  margin: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gallery-item:hover .gallery-item-info,
+.gallery-item:focus .gallery-item-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 220px;
+  width: 290px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item-info {
+  display: none;
+}
+
+.gallery-item-info li {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.gallery-item-likes {
+  margin-right: 2.2rem;
+}
+
+.gallery-item-type {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.fa-clone,
+.fa-comment {
+  transform: rotateY(180deg);
+}
+
+.gallery-image {
+  height: 200px;
+  width: 290px;
+  object-fit: cover;
+}
+
+.km {
+  height: 500px !important;
+  align-items: center !important;
+}
+.km2 {
+  width: 400px !important;
+  height: 500px !important;
+}
+
+.namepost {
+  padding: 0px 13px !important;
+}
